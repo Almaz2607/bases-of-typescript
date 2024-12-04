@@ -48,7 +48,7 @@ printReport(phone)
 printReport(drink)
 
 // --passing the argument this way will result in an error
-printReport({lable:'', price: 50}) 
+// printReport({lable:'', price: 50}) 
 
 //---function-overloading-------------
 function pickCard (x: number): { suit: string, card: number};
